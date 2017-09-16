@@ -1,0 +1,24 @@
+{
+  "minecraft:recipes/redstone/dispenser": {
+    "criteria": {
+      "has_bow": "2017-09-16 16:19:45 +0900"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "swampland": "2017-09-16 16:20:43 +0900",
+      "plains": "2017-09-16 16:20:32 +0900",
+      "taiga": "2017-09-16 16:19:45 +0900",
+      "taiga_hills": "2017-09-16 16:20:35 +0900",
+      "river": "2017-09-16 16:19:59 +0900"
+    },
+    "done": false
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2017-09-16 16:19:45 +0900"
+    },
+    "done": true
+  }
+}

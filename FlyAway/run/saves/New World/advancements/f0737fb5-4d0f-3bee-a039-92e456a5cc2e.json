@@ -1,0 +1,65 @@
+{
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "entered_water": "2017-09-16 20:00:10 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dispenser": {
+    "criteria": {
+      "has_bow": "2017-09-16 20:00:05 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "entered_water": "2017-09-16 20:00:10 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "entered_water": "2017-09-16 20:00:10 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/boat": {
+    "criteria": {
+      "entered_water": "2017-09-16 20:00:10 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "entered_water": "2017-09-16 20:00:10 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "entered_water": "2017-09-16 20:00:10 +0900"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "forest": "2017-09-16 20:00:26 +0900",
+      "swampland": "2017-09-16 20:01:04 +0900",
+      "beaches": "2017-09-16 20:00:18 +0900",
+      "forest_hills": "2017-09-16 20:00:43 +0900",
+      "plains": "2017-09-16 20:00:20 +0900",
+      "taiga": "2017-09-16 20:00:48 +0900",
+      "taiga_hills": "2017-09-16 20:01:46 +0900",
+      "ocean": "2017-09-16 20:00:16 +0900",
+      "extreme_hills": "2017-09-16 20:01:21 +0900",
+      "river": "2017-09-16 20:00:05 +0900"
+    },
+    "done": false
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2017-09-16 20:00:05 +0900"
+    },
+    "done": true
+  }
+}

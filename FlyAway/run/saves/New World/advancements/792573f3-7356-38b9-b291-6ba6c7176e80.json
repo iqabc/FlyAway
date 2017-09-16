@@ -1,0 +1,30 @@
+{
+  "minecraft:recipes/redstone/dispenser": {
+    "criteria": {
+      "has_bow": "2017-09-16 18:25:57 +0900"
+    },
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2017-09-16 18:27:08 +0900"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "forest": "2017-09-16 18:26:41 +0900",
+      "beaches": "2017-09-16 18:27:21 +0900",
+      "plains": "2017-09-16 18:25:58 +0900",
+      "ocean": "2017-09-16 18:27:24 +0900",
+      "river": "2017-09-16 18:26:49 +0900"
+    },
+    "done": false
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2017-09-16 18:25:57 +0900"
+    },
+    "done": true
+  }
+}

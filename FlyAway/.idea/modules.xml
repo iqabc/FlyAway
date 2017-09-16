@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/FlyAway.iml" filepath="$PROJECT_DIR$/FlyAway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/FlyAway_api.iml" filepath="$PROJECT_DIR$/.idea/modules/FlyAway_api.iml" group="FlyAway" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/FlyAway_main.iml" filepath="$PROJECT_DIR$/.idea/modules/FlyAway_main.iml" group="FlyAway" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/FlyAway_test.iml" filepath="$PROJECT_DIR$/.idea/modules/FlyAway_test.iml" group="FlyAway" />
+    </modules>
+  </component>
+</project>

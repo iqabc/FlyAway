@@ -1,0 +1,20 @@
+{
+  "minecraft:recipes/combat/bow": {
+    "criteria": {
+      "has_the_recipe": "2017-09-16 13:01:59 +0900"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "forest_hills": "2017-09-16 13:00:55 +0900"
+    },
+    "done": false
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2017-09-16 13:01:32 +0900"
+    },
+    "done": true
+  }
+}

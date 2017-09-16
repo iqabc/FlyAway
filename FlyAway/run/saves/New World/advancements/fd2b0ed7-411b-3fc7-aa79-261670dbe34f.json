@@ -1,0 +1,22 @@
+{
+  "minecraft:recipes/redstone/dispenser": {
+    "criteria": {
+      "has_bow": "2017-09-16 14:48:37 +0900"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "forest": "2017-09-16 14:48:46 +0900",
+      "plains": "2017-09-16 14:48:49 +0900",
+      "river": "2017-09-16 14:48:37 +0900"
+    },
+    "done": false
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2017-09-16 14:48:37 +0900"
+    },
+    "done": true
+  }
+}

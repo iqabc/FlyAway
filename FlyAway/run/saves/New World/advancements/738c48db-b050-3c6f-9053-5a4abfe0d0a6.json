@@ -1,0 +1,62 @@
+{
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "entered_water": "2017-09-16 19:54:38 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dispenser": {
+    "criteria": {
+      "has_bow": "2017-09-16 19:52:49 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "entered_water": "2017-09-16 19:54:38 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "entered_water": "2017-09-16 19:54:38 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/boat": {
+    "criteria": {
+      "entered_water": "2017-09-16 19:54:38 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "entered_water": "2017-09-16 19:54:38 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "entered_water": "2017-09-16 19:54:38 +0900"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "forest": "2017-09-16 19:53:55 +0900",
+      "deep_ocean": "2017-09-16 19:54:30 +0900",
+      "beaches": "2017-09-16 19:53:13 +0900",
+      "plains": "2017-09-16 19:53:04 +0900",
+      "ocean": "2017-09-16 19:54:25 +0900",
+      "roofed_forest": "2017-09-16 19:53:45 +0900",
+      "river": "2017-09-16 19:52:49 +0900"
+    },
+    "done": false
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2017-09-16 19:52:49 +0900"
+    },
+    "done": true
+  }
+}

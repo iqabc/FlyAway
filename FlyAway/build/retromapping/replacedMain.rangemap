@@ -1,0 +1,122 @@
+Symbol range map extraction starting
+Processing 2 files
+startProcessing "fnitcrafters\iqabc\Iqabc.java" md5: b0a63c59abac2511df42e2f3487c324c
+@|fnitcrafters\iqabc\Iqabc.java|8|26|fnitcrafters.iqabc|package|fnitcrafters.iqabc|(file)
+Class Start: fnitcrafters.iqabc.Iqabc
+   @|fnitcrafters\iqabc\Iqabc.java|898|901|Mod|class|net.minecraftforge.fml.common.Mod
+   @|fnitcrafters\iqabc\Iqabc.java|911|916|modid|method|net.minecraftforge.fml.common.Mod|modid|()Ljava/lang/String;
+   @|fnitcrafters\iqabc\Iqabc.java|919|924|Iqabc|class|fnitcrafters.iqabc.Iqabc
+   @|fnitcrafters\iqabc\Iqabc.java|925|931|MOD_ID|field|fnitcrafters.iqabc.Iqabc|MOD_ID
+   @|fnitcrafters\iqabc\Iqabc.java|941|945|name|method|net.minecraftforge.fml.common.Mod|name|()Ljava/lang/String;
+   @|fnitcrafters\iqabc\Iqabc.java|948|953|Iqabc|class|fnitcrafters.iqabc.Iqabc
+   @|fnitcrafters\iqabc\Iqabc.java|954|962|MOD_NAME|field|fnitcrafters.iqabc.Iqabc|MOD_NAME
+   @|fnitcrafters\iqabc\Iqabc.java|972|979|version|method|net.minecraftforge.fml.common.Mod|version|()Ljava/lang/String;
+   @|fnitcrafters\iqabc\Iqabc.java|982|987|Iqabc|class|fnitcrafters.iqabc.Iqabc
+   @|fnitcrafters\iqabc\Iqabc.java|988|995|VERSION|field|fnitcrafters.iqabc.Iqabc|VERSION
+   @|fnitcrafters\iqabc\Iqabc.java|1011|1016|Iqabc|class|fnitcrafters.iqabc.Iqabc
+   @|fnitcrafters\iqabc\Iqabc.java|1044|1050|String|class|java.lang.String
+   @|fnitcrafters\iqabc\Iqabc.java|1044|1050|String|class|java.lang.String
+   @|fnitcrafters\iqabc\Iqabc.java|1051|1057|MOD_ID|field|fnitcrafters.iqabc.Iqabc|MOD_ID|
+   @|fnitcrafters\iqabc\Iqabc.java|1093|1099|String|class|java.lang.String
+   @|fnitcrafters\iqabc\Iqabc.java|1093|1099|String|class|java.lang.String
+   @|fnitcrafters\iqabc\Iqabc.java|1100|1108|MOD_NAME|field|fnitcrafters.iqabc.Iqabc|MOD_NAME|
+   @|fnitcrafters\iqabc\Iqabc.java|1144|1150|String|class|java.lang.String
+   @|fnitcrafters\iqabc\Iqabc.java|1144|1150|String|class|java.lang.String
+   @|fnitcrafters\iqabc\Iqabc.java|1151|1158|VERSION|field|fnitcrafters.iqabc.Iqabc|VERSION|
+   @|fnitcrafters\iqabc\Iqabc.java|1210|1214|Item|class|net.minecraft.item.Item
+   @|fnitcrafters\iqabc\Iqabc.java|1210|1214|Item|class|net.minecraft.item.Item
+   @|fnitcrafters\iqabc\Iqabc.java|1215|1221|sample|field|fnitcrafters.iqabc.Iqabc|sample|
+   @|fnitcrafters\iqabc\Iqabc.java|1369|1374|Iqabc|class|fnitcrafters.iqabc.Iqabc
+   @|fnitcrafters\iqabc\Iqabc.java|1330|1342|Mod.Instance|class|net.minecraftforge.fml.common.Mod.Instance
+   @|fnitcrafters\iqabc\Iqabc.java|1343|1349|MOD_ID|field|fnitcrafters.iqabc.Iqabc|MOD_ID
+   @|fnitcrafters\iqabc\Iqabc.java|1369|1374|Iqabc|class|fnitcrafters.iqabc.Iqabc
+   @|fnitcrafters\iqabc\Iqabc.java|1375|1383|INSTANCE|field|fnitcrafters.iqabc.Iqabc|INSTANCE|
+   Method Start: preinit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|fnitcrafters\iqabc\Iqabc.java|1657|1662|event|param|fnitcrafters.iqabc.Iqabc|preinit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|fnitcrafters\iqabc\Iqabc.java|1563|1571|SideOnly|class|net.minecraftforge.fml.relauncher.SideOnly
+      @|fnitcrafters\iqabc\Iqabc.java|1572|1576|Side|class|net.minecraftforge.fml.relauncher.Side
+      @|fnitcrafters\iqabc\Iqabc.java|1577|1583|CLIENT|field|net.minecraftforge.fml.relauncher.Side|CLIENT
+      @|fnitcrafters\iqabc\Iqabc.java|1590|1606|Mod.EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|fnitcrafters\iqabc\Iqabc.java|1623|1630|preinit|method|fnitcrafters.iqabc.Iqabc|preinit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|fnitcrafters\iqabc\Iqabc.java|1631|1656|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+      @|fnitcrafters\iqabc\Iqabc.java|1703|1709|sample|field|fnitcrafters.iqabc.Iqabc|sample
+      @|fnitcrafters\iqabc\Iqabc.java|1716|1722|Sample|class|fnitcrafters.iqabc.Sample
+      @|fnitcrafters\iqabc\Iqabc.java|1734|1746|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|fnitcrafters\iqabc\Iqabc.java|1747|1759|findRegistry|method|net.minecraftforge.fml.common.registry.GameRegistry|findRegistry|(Ljava/lang/Class;)Lnet/minecraftforge/registries/IForgeRegistry;
+      @|fnitcrafters\iqabc\Iqabc.java|1760|1764|Item|class|net.minecraft.item.Item
+      @|fnitcrafters\iqabc\Iqabc.java|1772|1780|register|method|net.minecraftforge.registries.IForgeRegistry|register|(Lnet/minecraftforge/registries/IForgeRegistryEntry;)V
+      @|fnitcrafters\iqabc\Iqabc.java|1781|1787|sample|field|fnitcrafters.iqabc.Iqabc|sample
+      @|fnitcrafters\iqabc\Iqabc.java|1802|1807|event|param|fnitcrafters.iqabc.Iqabc|preinit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|fnitcrafters\iqabc\Iqabc.java|1808|1815|getSide|method|net.minecraftforge.fml.common.event.FMLStateEvent|getSide|()Lnet/minecraftforge/fml/relauncher/Side;
+      @|fnitcrafters\iqabc\Iqabc.java|1818|1826|isClient|method|net.minecraftforge.fml.relauncher.Side|isClient|()Z
+      @|fnitcrafters\iqabc\Iqabc.java|1844|1855|ModelLoader|class|net.minecraftforge.client.model.ModelLoader
+      @|fnitcrafters\iqabc\Iqabc.java|1856|1886|setCustomModelResourceLocation|method|net.minecraftforge.client.model.ModelLoader|setCustomModelResourceLocation|(Lnet/minecraft/item/Item;ILnet/minecraft/client/renderer/block/model/ModelResourceLocation;)V
+      @|fnitcrafters\iqabc\Iqabc.java|1887|1893|sample|field|fnitcrafters.iqabc.Iqabc|sample
+      @|fnitcrafters\iqabc\Iqabc.java|1900|1921|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation
+      @|fnitcrafters\iqabc\Iqabc.java|1922|1928|MOD_ID|field|fnitcrafters.iqabc.Iqabc|MOD_ID
+   Method End: preinit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+   Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|fnitcrafters\iqabc\Iqabc.java|2161|2166|event|param|fnitcrafters.iqabc.Iqabc|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|fnitcrafters\iqabc\Iqabc.java|2100|2116|Mod.EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|fnitcrafters\iqabc\Iqabc.java|2133|2137|init|method|fnitcrafters.iqabc.Iqabc|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|fnitcrafters\iqabc\Iqabc.java|2138|2160|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
+      @|fnitcrafters\iqabc\Iqabc.java|2207|2219|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|fnitcrafters\iqabc\Iqabc.java|2220|2238|addShapelessRecipe|method|net.minecraftforge.fml.common.registry.GameRegistry|addShapelessRecipe|(Lnet/minecraft/util/ResourceLocation;Lnet/minecraft/util/ResourceLocation;Lnet/minecraft/item/ItemStack;[Lnet/minecraft/item/crafting/Ingredient;)V
+      @|fnitcrafters\iqabc\Iqabc.java|2243|2259|ResourceLocation|class|net.minecraft.util.ResourceLocation
+      @|fnitcrafters\iqabc\Iqabc.java|2276|2285|ItemStack|class|net.minecraft.item.ItemStack
+      @|fnitcrafters\iqabc\Iqabc.java|2290|2294|Item|class|net.minecraft.item.Item
+   Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+   Method Start: postinit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|fnitcrafters\iqabc\Iqabc.java|2515|2520|event|param|fnitcrafters.iqabc.Iqabc|postinit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
+      @|fnitcrafters\iqabc\Iqabc.java|2446|2462|Mod.EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|fnitcrafters\iqabc\Iqabc.java|2479|2487|postinit|method|fnitcrafters.iqabc.Iqabc|postinit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|fnitcrafters\iqabc\Iqabc.java|2488|2514|FMLPostInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+   Method End: postinit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+   Class Start: fnitcrafters.iqabc.Iqabc.Blocks
+      @|fnitcrafters\iqabc\Iqabc.java|2674|2699|GameRegistry.ObjectHolder|class|net.minecraftforge.fml.common.registry.GameRegistry.ObjectHolder
+      @|fnitcrafters\iqabc\Iqabc.java|2700|2706|MOD_ID|field|fnitcrafters.iqabc.Iqabc|MOD_ID
+      @|fnitcrafters\iqabc\Iqabc.java|2732|2738|Blocks|class|fnitcrafters.iqabc.Iqabc.Blocks
+   Class End  : fnitcrafters.iqabc.Iqabc.Blocks
+   Class Start: fnitcrafters.iqabc.Iqabc.Items
+      @|fnitcrafters\iqabc\Iqabc.java|3014|3039|GameRegistry.ObjectHolder|class|net.minecraftforge.fml.common.registry.GameRegistry.ObjectHolder
+      @|fnitcrafters\iqabc\Iqabc.java|3040|3046|MOD_ID|field|fnitcrafters.iqabc.Iqabc|MOD_ID
+      @|fnitcrafters\iqabc\Iqabc.java|3072|3077|Items|class|fnitcrafters.iqabc.Iqabc.Items
+   Class End  : fnitcrafters.iqabc.Iqabc.Items
+   Class Start: fnitcrafters.iqabc.Iqabc.ObjectRegistryHandler
+      @|fnitcrafters\iqabc\Iqabc.java|3452|3474|Mod.EventBusSubscriber|class|net.minecraftforge.fml.common.Mod.EventBusSubscriber
+      @|fnitcrafters\iqabc\Iqabc.java|3499|3520|ObjectRegistryHandler|class|fnitcrafters.iqabc.Iqabc.ObjectRegistryHandler
+      Method Start: addItems(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+         @|fnitcrafters\iqabc\Iqabc.java|3703|3708|event|param|fnitcrafters.iqabc.Iqabc.ObjectRegistryHandler|addItems|(Lnet/minecraftforge/event/RegistryEvent$Register;)V|event|0
+         @|fnitcrafters\iqabc\Iqabc.java|3623|3637|SubscribeEvent|class|net.minecraftforge.fml.common.eventhandler.SubscribeEvent
+         @|fnitcrafters\iqabc\Iqabc.java|3665|3673|addItems|method|fnitcrafters.iqabc.Iqabc.ObjectRegistryHandler|addItems|(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+         @|fnitcrafters\iqabc\Iqabc.java|3674|3696|RegistryEvent.Register|class|net.minecraftforge.event.RegistryEvent.Register
+         @|fnitcrafters\iqabc\Iqabc.java|3697|3701|Item|class|net.minecraft.item.Item
+      Method End: addItems(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+      Method Start: addBlocks(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+         @|fnitcrafters\iqabc\Iqabc.java|4149|4154|event|param|fnitcrafters.iqabc.Iqabc.ObjectRegistryHandler|addBlocks|(Lnet/minecraftforge/event/RegistryEvent$Register;)V|event|0
+         @|fnitcrafters\iqabc\Iqabc.java|4067|4081|SubscribeEvent|class|net.minecraftforge.fml.common.eventhandler.SubscribeEvent
+         @|fnitcrafters\iqabc\Iqabc.java|4109|4118|addBlocks|method|fnitcrafters.iqabc.Iqabc.ObjectRegistryHandler|addBlocks|(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+         @|fnitcrafters\iqabc\Iqabc.java|4119|4141|RegistryEvent.Register|class|net.minecraftforge.event.RegistryEvent.Register
+         @|fnitcrafters\iqabc\Iqabc.java|4142|4147|Block|class|net.minecraft.block.Block
+      Method End: addBlocks(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+   Class End  : fnitcrafters.iqabc.Iqabc.ObjectRegistryHandler
+Class End  : fnitcrafters.iqabc.Iqabc
+endProcessing "fnitcrafters\iqabc\Iqabc.java"
+
+startProcessing "fnitcrafters\iqabc\Sample.java" md5: 91dcb613fa30ef508e5d1b7f198b2c10
+@|fnitcrafters\iqabc\Sample.java|8|26|fnitcrafters.iqabc|package|fnitcrafters.iqabc|(file)
+Class Start: fnitcrafters.iqabc.Sample
+   @|fnitcrafters\iqabc\Sample.java|126|132|Sample|class|fnitcrafters.iqabc.Sample
+   @|fnitcrafters\iqabc\Sample.java|141|149|ItemFood|class|net.minecraft.item.ItemFood
+   Method Start: Sample()V
+      @|fnitcrafters\iqabc\Sample.java|162|168|Sample|method|fnitcrafters.iqabc.Sample|Sample|()V
+      @|fnitcrafters\iqabc\Sample.java|209|223|setCreativeTab|method|net.minecraft.item.Item|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;
+      @|fnitcrafters\iqabc\Sample.java|224|236|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs
+      @|fnitcrafters\iqabc\Sample.java|237|241|FOOD|field|net.minecraft.creativetab.CreativeTabs|FOOD
+      @|fnitcrafters\iqabc\Sample.java|252|270|setUnlocalizedName|method|net.minecraft.item.Item|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/item/Item;
+      @|fnitcrafters\iqabc\Sample.java|288|303|setMaxStackSize|method|net.minecraft.item.Item|setMaxStackSize|(I)Lnet/minecraft/item/Item;
+      @|fnitcrafters\iqabc\Sample.java|317|332|setAlwaysEdible|method|net.minecraft.item.ItemFood|setAlwaysEdible|()Lnet/minecraft/item/ItemFood;
+   Method End: Sample()V
+Class End  : fnitcrafters.iqabc.Sample
+endProcessing "fnitcrafters\iqabc\Sample.java"
+
