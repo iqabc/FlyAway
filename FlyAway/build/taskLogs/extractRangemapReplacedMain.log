@@ -1,8 +1,11 @@
 Symbol range map extraction starting
-Processing 2 files
-startProcessing "fnitcrafters\iqabc\Iqabc.java" md5: b0a63c59abac2511df42e2f3487c324c
+Processing 3 files
+startProcessing "fnitcrafters\iqabc\HookShot.java" md5: 691c20c4bf7e4c76f07b476d31020ec5
+endProcessing "fnitcrafters\iqabc\HookShot.java"
+
+startProcessing "fnitcrafters\iqabc\Iqabc.java" md5: 8d35d6e6d2a4395253d25eb1616b5e55
 endProcessing "fnitcrafters\iqabc\Iqabc.java"
 
-startProcessing "fnitcrafters\iqabc\Sample.java" md5: 91dcb613fa30ef508e5d1b7f198b2c10
+startProcessing "fnitcrafters\iqabc\Sample.java" md5: 071da7fc14ceaeef787c786239927879
 endProcessing "fnitcrafters\iqabc\Sample.java"
 

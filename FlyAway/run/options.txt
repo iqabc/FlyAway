@@ -4,12 +4,12 @@ mouseSensitivity:0.5
 fov:0.0
 gamma:0.53521127
 saturation:0.0
-renderDistance:12
+renderDistance:9
 guiScale:0
 particles:0
 bobView:true
 anaglyph3d:false
-maxFps:120
+maxFps:80
 fboEnable:true
 difficulty:2
 fancyGraphics:true
@@ -85,6 +85,10 @@ key_key.hotbar.6:7
 key_key.hotbar.7:8
 key_key.hotbar.8:9
 key_key.hotbar.9:10
+key_S:31
+key_W:17
+key_S:31
+key_D:32
 soundCategory_master:0.5
 soundCategory_music:1.0
 soundCategory_record:1.0

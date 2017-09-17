@@ -1,13 +1,14 @@
 package fnitcrafters.iqabc;
 
 import net.minecraft.block.Block;
-import net.minecraft.block.BlockStone;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
+import net.minecraft.client.settings.KeyBinding;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemDoor;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.client.model.ModelLoader;
+import net.minecraftforge.fml.client.registry.ClientRegistry;
+import net.minecraftforge.fml.common.FMLCommonHandler;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
@@ -17,21 +18,26 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+import org.lwjgl.input.Keyboard;
 
 @Mod(
         modid = Iqabc.MOD_ID,
         name = Iqabc.MOD_NAME,
         version = Iqabc.VERSION
 )
+@SideOnly(Side.CLIENT)
 public class Iqabc {
 
     public static final String MOD_ID = "iqabc";
     public static final String MOD_NAME = "Iqabc";
-    public static final String VERSION = "1.0-SNAPSHOT";
+    public static final String VERSION = "1.0";
+    public static final KeyBinding key_S = new KeyBinding(Keyboard.getKeyName(Keyboard.KEY_S),Keyboard.KEY_S, "category");
+    public static final KeyBinding key_W = new KeyBinding(Keyboard.getKeyName(Keyboard.KEY_W),Keyboard.KEY_W, "category");
+    public static final KeyBinding key_A = new KeyBinding(Keyboard.getKeyName(Keyboard.KEY_A),Keyboard.KEY_A, "category");
+    public static final KeyBinding key_D = new KeyBinding(Keyboard.getKeyName(Keyboard.KEY_D),Keyboard.KEY_D, "category");
 
     //MyMods!
-    public static Item sample;
-
+    public static Item hookShot;
 
     /**
      * This is the instance of your mod as created by Forge. It will never be null.
@@ -46,13 +52,14 @@ public class Iqabc {
     @SideOnly(Side.CLIENT)
     @Mod.EventHandler
     public void preinit(FMLPreInitializationEvent event) {
-        //-----sample-----//
-        sample = new Sample();
-        GameRegistry.findRegistry(Item.class).register(sample);
+        //-----hookShot-----//
+        hookShot = new HookShot();
+        //sample.setRegistryName(MOD_ID,"myFood");
+        GameRegistry.findRegistry(Item.class).register(hookShot);
         if (event.getSide().isClient()) {
-            ModelLoader.setCustomModelResourceLocation(sample,0,new ModelResourceLocation(MOD_ID + ":" + "sample","inventory"));
+            ModelLoader.setCustomModelResourceLocation(hookShot,0,new ModelResourceLocation(MOD_ID + ":" + "bow","inventory"));
         }
-        //-----sample-----//
+        //-----hookShot-----//
     }
 
     /**
@@ -60,9 +67,20 @@ public class Iqabc {
      */
     @Mod.EventHandler
     public void init(FMLInitializationEvent event) {
-        //-----sample-----//
-        GameRegistry.addShapelessRecipe(new ResourceLocation("bow"),null,new ItemStack(new Item(),1,5));
-        //-----sample-----//
+        //----------hookShot----------//
+        GameRegistry.addShapedRecipe(new ResourceLocation("bow"), new ResourceLocation("recipes"), new ItemStack(hookShot, 1), new Object[]{"P  "," A ","  B", 'P', Item.getItemById(257),'A', Item.getItemById(262),'B', Item.getItemById(261)});
+        //----------hookShot----------//
+
+        //----------keyEvent----------//
+        if (event.getSide() == Side.CLIENT)
+        {
+            ClientRegistry.registerKeyBinding(key_S);
+            ClientRegistry.registerKeyBinding(key_W);
+            ClientRegistry.registerKeyBinding(key_S);
+            ClientRegistry.registerKeyBinding(key_D);
+        }
+        FMLCommonHandler.instance().bus().register(hookShot);
+        //----------keyEvent----------//
     }
 
     /**
@@ -106,6 +124,7 @@ public class Iqabc {
          */
         @SubscribeEvent
         public static void addItems(RegistryEvent.Register<Item> event) {
+            //event.getRegistry().register(sample.setRegistryName(MOD_ID,"myFood"));
            /*
              event.getRegistry().register(new ItemBlock(Blocks.myBlock).setRegistryName(MOD_ID, "myBlock"));
              event.getRegistry().register(new MySpecialItem().setRegistryName(MOD_ID, "mySpecialItem"));

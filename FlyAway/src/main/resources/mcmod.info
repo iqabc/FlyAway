@@ -2,13 +2,13 @@
   {
     "modid": "iqabc",
     "name": "Iqabc",
-    "description": "",
+    "description": "Hookshot",
     "version": "${version}",
     "mcversion": "${mcversion}",
     "url": "",
     "updateUrl": "",
     "authorList": [
-      ""
+      "Iqabc"
     ],
     "credits": "",
     "logoFile": "",

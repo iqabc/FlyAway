@@ -2,10 +2,13 @@ package fnitcrafters.iqabc;
 
 import net.minecraft.block.Block;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
+import net.minecraft.client.settings.KeyBinding;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.client.model.ModelLoader;
+import net.minecraftforge.fml.client.registry.ClientRegistry;
+import net.minecraftforge.fml.common.FMLCommonHandler;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
@@ -15,17 +18,23 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+import org.lwjgl.input.Keyboard;
 
 @Mod(
         modid = Iqabc.MOD_ID,
         name = Iqabc.MOD_NAME,
         version = Iqabc.VERSION
 )
+@SideOnly(Side.CLIENT)
 public class Iqabc {
 
     public static final String MOD_ID = "iqabc";
     public static final String MOD_NAME = "Iqabc";
-    public static final String VERSION = "1.0-SNAPSHOT";
+    public static final String VERSION = "1.0";
+    public static final KeyBinding key_S = new KeyBinding(Keyboard.getKeyName(Keyboard.KEY_S),Keyboard.KEY_S, "category");
+    public static final KeyBinding key_W = new KeyBinding(Keyboard.getKeyName(Keyboard.KEY_W),Keyboard.KEY_W, "category");
+    public static final KeyBinding key_A = new KeyBinding(Keyboard.getKeyName(Keyboard.KEY_A),Keyboard.KEY_A, "category");
+    public static final KeyBinding key_D = new KeyBinding(Keyboard.getKeyName(Keyboard.KEY_D),Keyboard.KEY_D, "category");
 
     //MyMods!
     public static Item hookShot;
@@ -40,7 +49,6 @@ public class Iqabc {
      * This is the first initialization event. Register tile entities here.
      * The registry events below will have fired prior to entry to this method.
      */
-    @SideOnly(Side.CLIENT)
     @Mod.EventHandler
     public void preinit(FMLPreInitializationEvent event) {
         //-----hookShot-----//
@@ -58,7 +66,20 @@ public class Iqabc {
      */
     @Mod.EventHandler
     public void init(FMLInitializationEvent event) {
+        //----------hookShot----------//
         GameRegistry.addShapedRecipe(new ResourceLocation("bow"), new ResourceLocation("recipes"), new ItemStack(hookShot, 1), new Object[]{"P  "," A ","  B", 'P', Item.getItemById(257),'A', Item.getItemById(262),'B', Item.getItemById(261)});
+        //----------hookShot----------//
+
+        //----------keyEvent----------//
+        if (event.getSide() == Side.CLIENT)
+        {
+            ClientRegistry.registerKeyBinding(key_S);
+            ClientRegistry.registerKeyBinding(key_W);
+            ClientRegistry.registerKeyBinding(key_S);
+            ClientRegistry.registerKeyBinding(key_D);
+        }
+        FMLCommonHandler.instance().bus().register(hookShot);
+        //----------keyEvent----------//
     }
 
     /**
