@@ -1,0 +1,10 @@
+Symbol range map extraction starting
+Processing 2 files
+startProcessing "com\example\examplemod\ExampleMod.java" md5: 026c87322afd2cfc2664febad07d5190
+Cache Hit!
+endProcessing "com\example\examplemod\ExampleMod.java"
+
+startProcessing "com\example\examplemod\HookShot.java" md5: a10e1b3ece2df48a523cd3415297ecc7
+Cache Hit!
+endProcessing "com\example\examplemod\HookShot.java"
+

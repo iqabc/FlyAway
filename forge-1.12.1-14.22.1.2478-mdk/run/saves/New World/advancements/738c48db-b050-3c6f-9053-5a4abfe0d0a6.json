@@ -1,0 +1,20 @@
+{
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "forest": "2017-09-18 07:30:16 +0900",
+      "mesa_rock": "2017-09-18 07:31:22 +0900",
+      "mesa": "2017-09-18 07:31:20 +0900",
+      "plains": "2017-09-18 07:31:09 +0900",
+      "mesa_clear_rock": "2017-09-18 07:31:43 +0900",
+      "river": "2017-09-18 07:31:32 +0900",
+      "desert": "2017-09-18 07:31:18 +0900"
+    },
+    "done": false
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2017-09-18 07:30:16 +0900"
+    },
+    "done": true
+  }
+}
