@@ -2,13 +2,17 @@ package com.example.examplemod;
 
 import net.minecraft.client.Minecraft;
 import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemBow;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.EnumHand;
+import net.minecraft.util.EnumParticleTypes;
 import net.minecraft.util.math.Vec3d;
 import net.minecraft.world.World;
+import net.minecraftforge.event.entity.living.LivingFallEvent;
+import net.minecraftforge.fml.client.FMLClientHandler;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.common.gameevent.InputEvent;
 import net.minecraftforge.fml.relauncher.Side;
@@ -46,7 +50,6 @@ public class HookShot extends ItemBow{
     @SideOnly(Side.CLIENT)
     @SubscribeEvent
     public void inputKey(InputEvent.KeyInputEvent e) {
-        System.out.println(e);
         if(ExampleMod.key_S.isPressed())key[S] = true;
         else key[S] = false;
         if(ExampleMod.key_W.isPressed())key[W] = true;
@@ -57,11 +60,29 @@ public class HookShot extends ItemBow{
         else key[D] = false;
     }
 
+    @SideOnly(Side.CLIENT)
+    @SubscribeEvent//←イベント用のメソッドにつけるものらしい
+    public void LivingFallEvent(LivingFallEvent e ) //イベント用のメソッド。引数がLivingFallEventなら名前は何でもいい
+    {
+        EntityLivingBase entityLiving = e.getEntityLiving();//e・・・つまり、渡されたLivingFallEventから、落下したentityLivingを取得
+
+        System.out.println("entity = "+entityLiving);
+        System.out.println("player = "+Minecraft.getMinecraft().player);
+
+        if(entityLiving.equals(Minecraft.getMinecraft().player)) {
+            if(entityLiving.getHeldItem(EnumHand.MAIN_HAND).getItem() instanceof HookShot || entityLiving.getHeldItem(EnumHand.OFF_HAND).getItem() instanceof HookShot){
+                e.setDistance(0);
+            }
+            return;
+        }
+
+    }
+
     @Override
     @SideOnly(Side.CLIENT)
     public ActionResult<ItemStack> onItemRightClick(World worldIn, EntityPlayer playerIn, EnumHand handIn) {
         mPlayer = playerIn;
-
+        des = mPlayer.rayTrace(48,1.0F).hitVec;
         fly = true;
         if (timer == null) {
             timer = new Timer();
@@ -71,10 +92,10 @@ public class HookShot extends ItemBow{
                 public void run() {
                     if(Minecraft.getMinecraft().player != null) {
                         mPlayer = Minecraft.getMinecraft().player;
+                        //if player is not flying
                         if(!mPlayer.isAirBorne)return;
                         if(!fly)return;
                         fly = !mPlayer.isCollided;
-                        des = mPlayer.rayTrace(48,1.0F).hitVec;
                         double difX = des.x-mPlayer.posX;
                         double difY = des.y-mPlayer.posY;
                         double difZ = des.z-mPlayer.posZ;

@@ -1,0 +1,30 @@
+{
+  "minecraft:recipes/redstone/dispenser": {
+    "criteria": {
+      "has_bow": "2017-09-18 16:17:46 +0900"
+    },
+    "done": true
+  },
+  "minecraft:story/iron_tools": {
+    "criteria": {
+      "iron_pickaxe": "2017-09-18 16:17:37 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2017-09-18 16:17:46 +0900"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "forest": "2017-09-18 16:18:55 +0900",
+      "plains": "2017-09-18 16:16:39 +0900",
+      "mesa_clear_rock": "2017-09-18 16:22:18 +0900",
+      "river": "2017-09-18 16:19:09 +0900",
+      "desert": "2017-09-18 16:20:25 +0900"
+    },
+    "done": false
+  }
+}

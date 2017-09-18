@@ -1,0 +1,17 @@
+{
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2017-09-18 18:09:06 +0900"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "forest": "2017-09-18 18:06:36 +0900",
+      "mesa": "2017-09-18 18:09:51 +0900",
+      "plains": "2017-09-18 18:05:50 +0900",
+      "desert": "2017-09-18 18:09:50 +0900"
+    },
+    "done": false
+  }
+}
